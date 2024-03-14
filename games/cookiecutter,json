@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "platformer": {
+            "path": "./platformer",
+            "title": "Platformer",
+            "description": "A cookiecutter template for a projectplatformer game"
+        }
+    }
+}
