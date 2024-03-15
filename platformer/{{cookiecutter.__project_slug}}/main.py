@@ -14,7 +14,7 @@ SCREEN_HEIGHT = 600
 SCREEN_TITLE = "{{ cookiecutter.project_name }}"
 
 
-class {{cookiecutter.game_class}}(arcade.Window):
+class {{cookiecutter.__game_class}}(arcade.Window):
     """
     Main application class.
 
@@ -90,7 +90,7 @@ class {{cookiecutter.game_class}}(arcade.Window):
 
 def main():
     """ Main method """
-    game = {{cookiecutter.game_class}}(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    game = {{cookiecutter.__game_class}}(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
     game.setup()
     arcade.run()
 
