@@ -1,5 +1,6 @@
 {
     "project_name": "Simple Platformer",
+    "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "game_class": "{{ cookiecutter.project_name.title().replace(' ', '') }}",
     "author": "Anonymous",
