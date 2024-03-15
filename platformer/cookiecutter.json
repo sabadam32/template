@@ -5,5 +5,5 @@
     "__game_class": "{{ cookiecutter.project_name.title().replace(' ', '') }}",
     "author": "Anonymous",
     "description": "A simple platformer game created using arcade",
-    "__year": "{{cookiecutter.year}}"
+    "__year": "{% now 'utc', '%Y' %}"
 }
