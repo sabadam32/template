@@ -2,6 +2,7 @@
     "templates": {
         "Platformer": {
             "path": "./platformer",
+            ""
             "title": "Simple Platformer",
             "description": "A simple platformer game using the arcade library"
         }
