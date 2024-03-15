@@ -7,3 +7,6 @@ authors = [
 ]
 license = {file = "license.md"}
 requires-python = ">=3.9"
+dependencies = [
+    "arcade~=3.0"
+]
