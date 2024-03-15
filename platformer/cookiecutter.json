@@ -1,7 +1,7 @@
 {
     "project_name": "Simple Platformer",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "game_class": "{{ cookiecutter.project_name.capitalize().replace(' ', '') }}",
+    "game_class": "{{ cookiecutter.project_name.title().replace(' ', '') }}",
     "author": "Anonymous",
     "description": "A simple platformer game created using arcade"
 }
