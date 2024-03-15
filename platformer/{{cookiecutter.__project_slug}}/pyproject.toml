@@ -1,5 +1,5 @@
 [project]
-name = "{{coociecutter.project_name}}"
+name = "{{cookiecutter.project_name}}"
 description = "{{cookiecutter.description}}"
 readme = "readme.md"
 authors = [
