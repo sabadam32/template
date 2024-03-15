@@ -1,5 +1,5 @@
 [project]
-name = "{{cookiecutter.project_name}}"
+name = "{{cookiecutter.__project_slug}}"
 description = "{{cookiecutter.description}}"
 readme = "readme.md"
 authors = [
@@ -8,5 +8,6 @@ authors = [
 license = {file = "license.md"}
 requires-python = ">=3.9"
 dependencies = [
-    "arcade~=3.0"
+    "arcade"
 ]
+dynamic = ["version"]
