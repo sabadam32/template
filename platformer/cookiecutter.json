@@ -4,6 +4,7 @@
     "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "__game_class": "{{ cookiecutter.project_name.title().replace(' ', '') }}",
     "author": "Anonymous",
+    "email": "",
     "description": "A simple platformer game created using arcade",
     "__year": "{% now 'utc', '%Y' %}"
 }
